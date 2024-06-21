@@ -1,0 +1,21 @@
+.main {
+    background-color: black;
+    color: white;
+}
+
+.vantagens {
+    padding: 5.5rem 5rem 8rem 5rem;
+    background-color: #E6D9B1;
+}
+
+.icons_vantagens, .icon_estante {
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: #CAB17E;
+    border-radius: 20px;
+}
+
+.icon_estante {
+    padding: 1.5rem;
+}
