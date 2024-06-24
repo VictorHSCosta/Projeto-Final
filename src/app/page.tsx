@@ -3,6 +3,7 @@ import styles from "~/styles/homepage.module.css"
 import {Vantagem} from "./_components/vantagem"
 import Localizacao from "~/app/_components/Localizacao"
 import Header from "~/app/_components/Header"
+import Footer from "~/app/_components/Footer"
 
 import IconDinheiro from "~/app/_images/icon_dinheiro.svg"
 import IconCartao from "~/app/_images/icon_cartao.svg"
@@ -40,7 +41,7 @@ export default function Home() {
         <section>sobre</section>
         <Localizacao />
       </main>
-      <footer>footer</footer>
+      <Footer />
     </>
   );
 }
