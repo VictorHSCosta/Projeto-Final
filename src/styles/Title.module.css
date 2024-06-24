@@ -9,6 +9,10 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.28px;
+
+    @media(max-width: 1380px) {
+        font-size: 50px;
+    }
 }
 
 .p {
@@ -19,6 +23,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 36px */
+    margin-top: 24px;
+    margin-bottom: 0px;
+    @media(max-width: 1380px) {
+        font-size: 20px;
+    }
 }
 
 .img {
@@ -28,6 +37,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
+    margin-top:  120px;
+
+    @media screen and (max-width: 1380px) {
+        margin: 0 , 20px, 0 ,20px;
+        width: 90%;
+        height: 90%;
+    }
 } 
 
 .div{
