@@ -38,6 +38,16 @@
     color: #2A180A;
     text-decoration: underline;
 }
+.nav-bar .btn {
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #2a180a;
+}
+.nav-bar .btn:hover {
+    background-color: #FFF5D6;
+    color: #2a180a;
+    box-shadow: 0px 0px 2px 3px #2a180a4d;
+}
 .menu-container {
     cursor: pointer;
     display: none;
@@ -94,6 +104,17 @@
         font-size: 1.8rem;
         text-align: center;
         border-bottom: 1px solid #95835b;
+    }
+    nav.nav-bar a:hover {
+        color: #a68444;
+        text-decoration: none;
+    }
+    nav.nav-bar .btn {
+        padding: 0.775rem 1.5rem;
+        background-color: #a68444;
+    }
+    nav.nav-bar .btn:hover {
+        box-shadow: 0px 0px 2px 3px #a684444d;
     }
     .menu-container {
         display: block;
