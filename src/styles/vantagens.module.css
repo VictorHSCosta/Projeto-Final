@@ -4,8 +4,8 @@
 }
 
 .icons_vantagens, .icon_estante {
-    margin: 2rem 0.5rem 2rem 0.5rem;
-    margin-left: 1rem;
+    height: 8rem;
+    margin: 2rem 0.5rem 2rem 1rem;
     padding: 1rem;
     background-color: #CAB17E;
     border-radius: 20px;
@@ -13,4 +13,36 @@
 
 .icon_estante {
     padding: 1.5rem;
+    height: 8.5rem;
+}
+
+@media screen and (max-width: 920px) {
+    .vantagens {
+        padding: 2rem;
+    }
+
+    .icons_vantagens, .icon_estante {
+        height: 5rem;
+        padding: 0.5rem;
+        border-radius: 15px;
+    }
+    .icon_estante {
+        padding: 1rem;
+        height: 5.4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .icons_vantagens, .icon_estante {
+        height: 3rem;
+        border-radius: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .icon_estante {
+        padding: 0.5rem;
+        height: 3.2rem;
+    }
+    
 }
