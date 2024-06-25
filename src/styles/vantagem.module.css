@@ -19,3 +19,27 @@
 .seta {
     margin-left: auto;
 }
+
+@media screen and (max-width: 920px) {
+    .vantagem > h2 {
+        font-size: 30px;
+        margin-left: 1rem;
+    }
+
+    .seta {
+        height: 2.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .vantagem > h2 {
+        font-size: 15px;
+        margin-left: 1rem;
+    }
+
+    .seta {
+        height: 1.5rem;
+    }
+    
+}
