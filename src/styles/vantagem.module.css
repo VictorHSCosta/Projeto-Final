@@ -1,13 +1,19 @@
 .vantagem {
-    background-color: #E6D9B1;
     border-bottom: solid 1px #A68444;
+}
+
+.vantagem_header {
+    background-color: #E6D9B1;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.vantagem_header:hover {
+    cursor: pointer;
+}
 
-.vantagem > h2 {
+.vantagem_header > h2 {
     margin-left: 4rem;
     color: #95835B;
     font-family: "Noto Serif";
@@ -20,8 +26,25 @@
     margin-left: auto;
 }
 
+.vantagem_content {
+    margin: 0 0 0 1rem;
+    background-color: #DBCAA2;
+    border-radius: 10px;
+}
+
+.vantagem_content > p {
+    padding: 2rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+    color: #95835B;
+    font-family: "Noto Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 @media screen and (max-width: 920px) {
-    .vantagem > h2 {
+    .vantagem_header > h2 {
         font-size: 30px;
         margin-left: 1rem;
     }
@@ -29,11 +52,15 @@
     .seta {
         height: 2.5rem;
     }
+
+    .vantagem_content > p {
+        font-size: 20px;
+    }
     
 }
 
 @media screen and (max-width: 600px) {
-    .vantagem > h2 {
+    .vantagem_header > h2 {
         font-size: 15px;
         margin-left: 1rem;
     }
@@ -42,4 +69,9 @@
         height: 1.5rem;
     }
     
+    .vantagem_content > p {
+        font-size: 12px;
+        padding: 1.5rem;
+    }
+
 }
