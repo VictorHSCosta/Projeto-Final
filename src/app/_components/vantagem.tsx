@@ -1,4 +1,3 @@
-import Seta from "~/app/_images/seta.svg"
 import styles from "~/styles/vantagem.module.css"
 
 type PropVantagem = {
@@ -11,7 +10,7 @@ export function Vantagem({content, children}: PropVantagem) {
         <div className={styles.vantagem}>
             {children}
             <h2>{content}</h2>
-            <img className={styles.seta} src={Seta.src} alt="v"/>
+            <img className={styles.seta} src={"/images/seta.svg"} alt="v"/>
         </div>
     )
 }
