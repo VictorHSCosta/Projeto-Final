@@ -1,9 +1,8 @@
 "use client"
 
-import { useRef } from "react";
-import { Title } from "./_components/Title";
-import styles from "~/styles/homepage.module.css"
-import {Vantagem} from "./_components/vantagem"
+import { useRef } from "react"
+import { Title } from "./_components/Title"
+import Vantagens from "~/app/_components/SecaoVantagens"
 import Sobre from "~/app/_components/Sobre"
 import Localizacao from "~/app/_components/Localizacao"
 import Header from "~/app/_components/Header"
@@ -25,23 +24,7 @@ export default function Home() {
           </div>
         </section>
         <section ref={navReferences.vantagens}>
-          <ul className={styles.vantagens}>
-            <li>
-              <Vantagem content="Livros a Preço de Banana :D">
-                <img className={styles.icons_vantagens} src={"/images/icon_cartao.svg"}/>
-              </Vantagem>
-            </li>
-            <li>
-              <Vantagem content="Aceitamos Fiado!">
-                <img className={styles.icons_vantagens} src={"/images/icon_cartao.svg"}/>
-              </Vantagem>
-            </li>
-            <li>
-              <Vantagem content="Acabou a criatividade :(">
-                <img className={styles.icon_estante} src={"/images/icon_estante.svg"}/>
-              </Vantagem>
-            </li>
-          </ul>
+          <Vantagens />
         </section>
         <section ref={navReferences.sobre}>
           <Sobre title="Sobre">
@@ -53,5 +36,5 @@ export default function Home() {
         </section>
       <Footer {...navReferences}/>
     </>
-  );
+  )
 }
