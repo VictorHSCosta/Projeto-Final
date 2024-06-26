@@ -49,8 +49,7 @@ export default function Home() {
         </section>
         <section ref={navReferences.sobre}>
           <Sobre title="Sobre">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas integer. Egestas diam in arcu cursus euismod quis. Arcu bibendum at varius vel pharetra vel turpis nunc. Tortor at risus viverra adipiscing at in tellus integer. Ornare arcu odio ut sem nulla pharetra diam. Magna etiam tempor orci eu lobortis elementum nibh tellus. Massa placerat duis ultricies lacus sed. Eget nulla facilisi etiam dignissim diam quis enim.</p>
-            <p>Scelerisque purus semper eget duis at tellus at urna. Tempus egestas sed sed risus pretium quam vulputate dignissim. Posuere lorem ipsum dolor sit. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. At quis risus sed vulputate odio ut. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Sapien pellentesque habitant morbi tristique senectus. Urna nunc id cursus metus.</p>
+            <p>"Nós somos uma livraria que atende dos mais diversos tipos de leitores que existem. Somos donos de um amplo repertório de livros internacionais e nacionais, os quais espalham emoções e conhecimento que prendem toda sua atenção. Nossa forma de reciclagem dos livros, realizada pela venda dos exemplares para nossa empresa, agrega não somente para quem quer se desfazer do escrito, mas para aqueles que anseiam por aventuras novas e um uma sede por intelectualidade. Estamos te esperando aqui no nosso endereço, para que possa adquirir a sua mais nova obra, e desfrutar do prazer de ler e vivenciar novas experiências."</p>
           </Sobre>
         </section>
         <section ref={navReferences.localizacao}>
