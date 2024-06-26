@@ -21,6 +21,7 @@ export default (linksRef: ref2navbar) => (
             <img src={"/images/logo.svg"} alt="logo (livro aberto com página amarelo claro)" />
             <p>Sebinho</p>
         </div>
+        <input type="checkbox" id={S["menu-toggle"]} style={{display: "none"}}/>
         <nav className={S["nav-bar"]}>
             <ul>
                 <li><a onClick={() => scrollTo(linksRef.vantagens)}>Vantagens</a></li>
@@ -30,7 +31,6 @@ export default (linksRef: ref2navbar) => (
             </ul>
         </nav>
         <label htmlFor={S["menu-toggle"]} className={S["menu-container"]}>
-            <input type="checkbox" id={S["menu-toggle"]} style={{display: "none"}}/>
             <div className={S["menu-icon-close"]}>
                 <span></span>
                 <span></span>

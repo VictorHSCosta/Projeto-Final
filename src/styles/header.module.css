@@ -10,6 +10,10 @@
     height: 8.125rem;
     position: relative;
 }
+.logo-container img {
+    width: inherit;
+    height: inherit;
+}
 .logo-container p {
     color: #FFF5D6;
     text-align: right;
@@ -57,14 +61,15 @@
     width: 2.5rem;
     height: 2rem;
     margin: 2rem;
-    display: flex;
 }
 .menu-icon-close {
+    display: none;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 .menu-icon-burger {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -92,7 +97,7 @@
         background-color: #2a180a;
         right: 0;
     }
-    nav.nav-bar:has(~ .menu-container > #menu-toggle:checked) {
+    #menu-toggle:checked ~ nav.nav-bar {
         display: block;
     }
     nav.nav-bar ul {
@@ -119,16 +124,10 @@
     .menu-container {
         display: block;
     }
-    #menu-toggle ~ .menu-icon-close {
-        display: none;
-    }
-    #menu-toggle ~ .menu-icon-burger {
+    #menu-toggle:checked ~ .menu-container .menu-icon-close{
         display: flex;
     }
-    #menu-toggle:checked ~ .menu-icon-close{
-        display: flex;
-    }
-    #menu-toggle:checked ~ .menu-icon-burger{
+    #menu-toggle:checked ~ .menu-container .menu-icon-burger{
         display: none;
     }
 }
