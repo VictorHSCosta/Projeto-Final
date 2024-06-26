@@ -3,10 +3,9 @@ import "~/styles/globals.css"
 export const metadata = {
   title: "Sebinho – livraria",
   description: "Conheça a livraria Sebinho: compra, venda ou troca de livros.",
-  icons: {
-    rel: "icon",
-    url: "/images/logo.svg"
-  },
+  icons: [
+    { rel: "icon", url: "/images/logo.svg" }
+  ]
 }
 
 export default function RootLayout({
