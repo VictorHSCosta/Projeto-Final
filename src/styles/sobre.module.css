@@ -1,0 +1,27 @@
+.titulo, .descricao {
+    text-align: center;
+    margin-inline: 5rem;
+}
+.titulo {
+    margin: 0.83em 5rem;
+    color: #4F3709;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: -0.12rem;
+}
+
+.descricao {
+    color: #493205;
+    font-family: serif;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+@media (width <= 576px) {
+    .titulo, .descricao {
+        margin-inline: 2rem;
+    }
+    .descricao {
+        margin-bottom: 2rem;
+    }
+}
