@@ -19,7 +19,7 @@ export function Vantagem({title, content, children}: PropVantagem) {
             <div className={styles.vantagem_header} onClick={handleClick}>
                 {children}
                 <h2>{title}</h2>
-                <img className={styles.seta} src={"/images/seta.svg"} alt="v"/>
+                <img className={styles.seta} src={"/images/seta.svg"} alt="seta" style={flag ? {transform: "rotate(.5turn)"} : undefined}/>
             </div>
             <div className={styles.vantagem_content}>
                 {flag && <p>{content}</p>}
