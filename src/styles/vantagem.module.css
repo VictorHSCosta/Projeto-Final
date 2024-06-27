@@ -16,12 +16,8 @@
 
 .vantagem_header > h2 {
     color: #95835B;
-    font-family: "Noto Serif";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 2.5rem;
 }
-
 
 .vantagem_content {
     margin: 0 0 0 1rem;
@@ -31,42 +27,32 @@
 
 .vantagem_content > p {
     padding: 2rem;
-    margin: 0 0 1rem 0;
+    margin-bottom: 1rem;
     text-align: center;
     color: #95835B;
-    font-family: "Noto Serif";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 1.6rem;
 }
 
-@media screen and (max-width: 920px) {
+@media (width <= 920px) {
     .vantagem_header {
         gap: 2rem;
     }
     .vantagem_header > h2 {
-        font-size: 30px;
+        font-size: 2rem;
     }
-
     .vantagem_content > p {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
-    
 }
 
-@media screen and (max-width: 600px) {
+@media (width <= 600px) {
     .vantagem_header {
         gap: 1rem;
-    }
-    .vantagem_header > h2 {
-        font-size: 1.5rem;
     }
     .vantagem_content {
         margin: 0;
     }
     .vantagem_content > p {
-        font-size: 1.5rem;
         padding: 1rem;
     }
-
 }

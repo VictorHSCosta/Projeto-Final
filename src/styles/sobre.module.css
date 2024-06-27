@@ -1,15 +1,13 @@
 .titulo, .descricao {
     text-align: center;
-    margin-inline: 5rem;
 }
 .titulo {
-    margin: 0.83em 5rem;
+    margin-block: 0.83em;
     color: #4F3709;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: -0.12rem;
 }
-
 .descricao {
     color: #493205;
     font-family: serif;
@@ -17,11 +15,9 @@
     margin-bottom: 5rem;
 }
 
-@media (width <= 576px) {
-    .titulo, .descricao {
-        margin-inline: 2rem;
-    }
+@media (width <= 600px) {
     .descricao {
         margin-bottom: 2rem;
+        font-size: 1.5rem;
     }
 }

@@ -2,7 +2,7 @@
     color: #FFF5D6;
     background-color: #A68444;
     display: flex;
-    padding: 1.0625rem 5rem;
+    padding-block: 1rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -51,11 +51,5 @@ ul.social-media {
     nav.nav-bar li {
         text-align: right;
         border-bottom: 1px solid #95835b;
-    }
-}
-
-@media (width <= 576px) {
-    footer.footer {
-        padding: 2rem;
     }
 }

@@ -1,7 +1,7 @@
 .header {
     background-color: #A68444;
     display: flex;
-    padding: 1.0625rem 5rem;
+    padding-block: 1rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -60,7 +60,7 @@
 .menu-icon-burger {
     width: 2.5rem;
     height: 2rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 .menu-icon-close {
     display: none;
@@ -129,11 +129,5 @@
     }
     #menu-toggle:checked ~ .menu-container .menu-icon-burger{
         display: none;
-    }
-}
-
-@media (width <= 576px) {
-    header.header {
-        padding: 2rem;
     }
 }

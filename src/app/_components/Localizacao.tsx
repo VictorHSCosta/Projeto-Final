@@ -12,11 +12,11 @@ export default () => {
     ), [])
 
     return (
-    <section className={S.container}>
+    <div className={S.container}>
         <div className={S.titleContainer}>
             <h2>Localização privilegiada</h2>
             <p>Centro da cidade, próximo a estação de metro e shopping</p>
         </div>
         <Map className={S.map}/>
-    </section> )
+    </div> )
 }

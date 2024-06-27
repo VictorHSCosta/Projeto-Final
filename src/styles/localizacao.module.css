@@ -1,7 +1,7 @@
-section.container {
+div.container {
     display: flex;
     width: 100%;
-    padding: 4.8125rem 5rem 4.75rem 5rem;
+    padding-block: 4rem;
     background-color: #F2CD6F;
     gap: 50px;
 }
@@ -29,12 +29,17 @@ div.titleContainer p {
     height: 80vh;
 }
 @media (width <= 992px) {
-    section.container {
+    div.container {
         flex-direction: column;
         gap: 0;
     }
     div.titleContainer {
         flex-basis: unset;
         width: unset;
+    }
+}
+@media (width <= 600px) {
+    div.map {
+        height: 55vh;
     }
 }
