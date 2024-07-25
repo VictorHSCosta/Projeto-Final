@@ -40,6 +40,16 @@ ul.social-media {
 .social-media svg:hover path {
     fill: #2A180A;
 }
+.nav-bar .btn {
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #2a180a;
+}
+.nav-bar .btn:hover {
+    background-color: #FFF5D6;
+    color: #2a180a;
+    box-shadow: 0px 0px 2px 3px #2a180a4d;
+}
 
 @media (width <= 992px) {
     nav.nav-bar ul {
