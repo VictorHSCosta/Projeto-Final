@@ -41,7 +41,7 @@ export default (linksRef: ref2navbar) => (
                 <li><a onClick={() => scrollTo(linksRef.vantagens)}>Vantagens</a></li>
                 <li><a onClick={() => scrollTo(linksRef.sobre)}>Sobre</a></li>
                 <li><a onClick={() => scrollTo(linksRef.localizacao)}>Localização</a></li>
-                <li><a href="#">Área funcionários</a></li>
+                <li><a href="/controle-de-estoque" className={S["btn"]}>Controle de estoque</a></li>
             </ul>
         </nav>
     </footer>
